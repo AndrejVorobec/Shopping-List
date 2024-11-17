@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #8d2525;
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.header__title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+}
+
+.header__profile-icon {
+  font-size: 1.5em;
+  margin-right: 10px;
+}
+
+.header__menu-icon {
+  font-size: 1.5em;
+  cursor: pointer;
+}
